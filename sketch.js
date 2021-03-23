@@ -43,7 +43,7 @@ function setup() {
   polygon = Bodies.circle (50,200,20,{restitution:0.8,density:2});
   World.add(world,polygon);
 
-  slingShot = new SlingShot (polygon,{x:120,y:150})
+  slingShot = new Slingshot (polygon,{x:120,y:150})
 
   Engine.run(engine);
 }
